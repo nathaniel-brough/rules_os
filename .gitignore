@@ -1,0 +1,5 @@
+# Bazel temp files
+bazel-*
+
+# Vscode
+.vscode
