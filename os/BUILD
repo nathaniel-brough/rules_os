@@ -1,6 +1,5 @@
 load("@io_bazel_stardoc//stardoc:stardoc.bzl", "stardoc")
 load("@bazel_skylib//:bzl_library.bzl", "bzl_library")
-load(":os_test.bzl", "dummy")
 
 stardoc(
     name = "os_docs",
@@ -15,8 +14,4 @@ bzl_library(
         "os_names.bzl",
         "repository_os.bzl",
     ],
-)
-
-dummy(
-    name = "dummy_test",
 )
