@@ -14,4 +14,5 @@ bzl_library(
         "os_names.bzl",
         "repository_os.bzl",
     ],
+    visibility = ["//visibility:public"],
 )
